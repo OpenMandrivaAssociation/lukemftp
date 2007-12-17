@@ -13,7 +13,6 @@ Source0:	ftp://ftp.netbsd.org/pub/NetBSD/misc/lukemftp/%{name}-%{realver}.tar.bz
 BuildRequires:	ncurses-devel >= 5.2
 BuildRequires:	automake
 BuildRequires:	autoconf
-BuildRoot:	%_tmppath/%{name}-%{version}-buildroot
 Conflicts:	ftp-client-krb5
 Provides:   ftp
 Obsoletes:	ftp6
