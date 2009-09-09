@@ -1,5 +1,5 @@
 %define beta beta2
-%define release  %mkrel 0.%{beta}.4
+%define release  %mkrel 0.%{beta}.5
 %define version 1.6
 %define realver %{version}%{beta}
 
