@@ -10,6 +10,8 @@ Release:	%{release}
 License:	BSD
 Group:		Networking/File transfer
 Source0:	ftp://ftp.netbsd.org/pub/NetBSD/misc/lukemftp/%{name}-%{realver}.tar.bz2
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:	ncurses-devel >= 5.2
 BuildRequires:	automake
 BuildRequires:	autoconf
